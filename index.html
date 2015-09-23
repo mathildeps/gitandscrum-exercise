@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Day 1 exorcise</title>
+		<link type="text/css" rel="stylesheet" href="style.css" />
+
+	</head>
+	<body>
+		<header>
+			<h1>5SEMANTICS</h1>
+			<nav id="menu">
+				<ul>
+					<li class="top"><a href="index.html">exercise 1</a></li>
+					<li class="top"><a href="ex1_ex2.html">exercise 2</a></li>
+					<li class="top"><a href="ex3_layout.html">exercise 3</a></li>
+					<li class="top"><a href="ex1_ex4.html">exercise 4</a></li>
+				</ul>
+			</nav>
+		</header>
+		<div id="content">
+			<p>HTML DOESN'T PROVIDE A HUGE NUMBER OF ELEMENTS for
+			us to work with. The selection available is more like that of a
+			corner store than a Walmart.
+			We have paragraphs, lists, and headlines but we don't have
+			events, news stories, or recipes. HTML gives us an element
+			for marking up a string as an abbreviation, but it doesn't give
+			us an element for marking up a number as a price.
+			Clearly, this limitation hasn't been a show-stopper; just look
+			at the amazing variety of websites out there. Even though
+			HTML might not provide a specific element for marking up a
+			particular piece of content, it provides just enough flexibility
+			to be "good enough."</p>
+
+			<h2>EXTENSIBILITY</h2>
+			<p>Other markup languages allow you to invent any element
+			you want. In XML, if you want an event <span>element</span> or a <span>price</span>
+			element, you just go right ahead and create it. The downside
+			to this freedom is that you then have to teach a parser what
+			<span>event</span> or <span>price</span> means. The advantage to HTML's limited set
+			of elements is that every user agent knows about every ele
+			ment. Browsers have a built-in knowledge of HTML. That
+			wouldn't be possible if we were allowed to make up element
+			names.
+			HTML provides a handy escape clause that allows web de
+			signers to add more semantic value to elements: the <span>class</span>
+			attribute. This attribute allows us to label specific instances
+			of an element as being a special class or type of that element.
+			The fact that browsers don't understand the vocabulary we
+			use in our <span>class</span> attributes doesn't affect the rendering of our
+			documents.
+			If, at this point, you're thinking "Wait a minute; aren't classes
+			for CSS?" then you're half right. The CSS class selector is one
+			example of a technology that makes use of the class attribute
+			but it isn't the onlyreason for using classes. Classes can also be
+			used in DOM Scripting. They can even be used by browsers
+			if the <span>class</span> names follow an agreed convention, as is the case
+			with microformats.</p>
+
+			<h3>Microformats</h3>
+			<p>Microformats are a set ofconventions which are agreed upon
+			by a community. These formats use the class attribute to plug
+			some of the more glaring holes in HTML: hCard for contact
+			details, hCalendar for events, hAtom for news stories. Because
+			there is a community consensus on what class names to use,
+			there are now parsers and browser extensions that work with
+			those specific patterns.</p>
+		</div>
+
+	</body>
+</html>
