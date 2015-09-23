@@ -1,4 +1,4 @@
 # gitandscrum-exercise
 
 
-<p>Vores workflow:<<</p>
+<p>Vores workflow:</p>
