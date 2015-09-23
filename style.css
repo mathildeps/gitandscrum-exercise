@@ -3,12 +3,12 @@ body {
 	padding:0;
 }
 header {
-	background-color: #ff6633;
-	height: 300px;
+	background-color: #003333;
+	height: 200px;
 }
 
-h1::first-letter {
-	font-size: 175px;
+h1 {
+	font-size: 80px;
 	color: white;
 }
 h1 {
@@ -16,6 +16,10 @@ h1 {
 	padding: 0;
 }
 #content {
+	width: 90%;
+	margin: auto;
+}
+.wrapper {
 	width: 90%;
 	margin: auto;
 }
@@ -63,57 +67,7 @@ nav ul li {
 		font-family:Helvetica, sans-serif;
 		text-align:center;
 	}
-.text{
-	margin: 20px;
-}
 
-#header {
-	margin: auto;
-	margin-top: 50px;
-	background-color: yellow;
-	height: 80px;
-	width: 80%;
-	border-radius: 25px; 
-}
-
-#sidebar {
-	margin-top: 10px;
-	background-color: red;
-	height: 400px;
-	width: 20%;
-	border-radius: 25px; 
-	float: left;
-}
-#cont {
-	
-	margin-top: 10px;
-	background-color: green;
-	height: 400px;
-	width:78%;
-	border-radius: 25px; 
-	float: right;
-	margin-bottom: 10px
-}
-#wrapper {
-	margin: auto;
-	width: 80%;
-}
-#footer {
-	margin: auto;
-	margin-top: 50px;
-	background-color: yellow;
-	height: 80px;
-	width: 80%;
-	border-radius: 25px;
-	clear: both;
-}
-.post {
-	margin: auto;
-	background-color: lightblue;
-	height: 80px;
-	width: 80%;
-	border-radius: 25px; 
-}
 .billeder {
 	margin: 20px;
 }
