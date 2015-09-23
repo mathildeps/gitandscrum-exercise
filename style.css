@@ -10,11 +10,15 @@ header {
 h1 {
 	font-size: 80px;
 	color: white;
-}
-h1 {
 	margin: 0;
-	padding: 0;
+	padding-top: 50px;
 }
+
+h2 {
+	font-size: 60px;
+	color: #033; 
+}
+
 #content {
 	width: 90%;
 	margin: auto;
@@ -23,14 +27,12 @@ h1 {
 	width: 90%;
 	margin: auto;
 }
-h2 {
-	color: #ff6633;
-}
+
 span {
 	color: blue;
 }
 #menu{ 
-	margin-top:25px;
+	margin-top: -10px;
 	float:right; 
 }
 
