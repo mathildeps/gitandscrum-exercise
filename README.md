@@ -1,4 +1,4 @@
-# gitandscrum-exercise
+# Git and scrum exercise
 
 
-<p>Vores workflow:</p>
+<p>Vores workflow</p>
